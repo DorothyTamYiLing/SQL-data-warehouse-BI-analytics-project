@@ -22,13 +22,13 @@ develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-#### Data Architecture
+## Data Architecture
 <img width="6235" height="3216" alt="data_architecture" src="https://github.com/user-attachments/assets/830ed2e5-407a-49a7-a47d-5848623275e5" />
 
 
-#### Requirements
-SQL Server Express : lightweight server for hosting SQL databases
-SQL Server Management Studio (SSMS) : DUI for managing and interacting with databases
+## Requirements
+- SQL Server Express : lightweight server for hosting SQL databases
+- SQL Server Management Studio (SSMS) : DUI for managing and interacting with databases
 
 ---
 ## Liscense
