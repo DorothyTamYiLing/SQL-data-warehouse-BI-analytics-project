@@ -20,14 +20,51 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ### Component 2: BI Analytics & Reporting (Data Analytics)
 
 #### Objective
-develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behaviour**
-- **Product Performance**
-- **Sales Trends**
+Develop SQL-based analytics to deliver detailed insights into customer behaviour, product performance and sales trends. These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+Analytics include:
+Exploratory Data Analysis (EDA): database exploration, dimension exploration, date exploration, measures exploration, magnitude and ranking exploration
+Advance analytics: Change-over-time, cumulative analysis, performance analysis, part-to-whole analysis, data segmentation, report generation
 
+===============================================================================
+Customer Report
+===============================================================================
+Purpose:
+    - This report consolidates key customer metrics and behaviors
 
+Highlights:
+    1. Gathers essential fields such as names, ages, and transaction details.
+	2. Segments customers into categories (VIP, Regular, New) and age groups.
+    3. Aggregates customer-level metrics:
+	   - total orders
+	   - total sales
+	   - total quantity purchased
+	   - total products
+	   - lifespan (in months)
+    4. Calculates valuable KPIs:
+	    - recency (months since last order)
+		- average order value
+		- average monthly spend
+
+===============================================================================
+Product Report
+===============================================================================
+Purpose:
+    - This report consolidates key product metrics and behaviors.
+
+Highlights:
+    1. Gathers essential fields such as product name, category, subcategory, and cost.
+    2. Segments products by revenue to identify High-Performers, Mid-Range, or Low-Performers.
+    3. Aggregates product-level metrics:
+       - total orders
+       - total sales
+       - total quantity sold
+       - total customers (unique)
+       - lifespan (in months)
+    4. Calculates valuable KPIs:
+       - recency (months since last sale)
+       - average order revenue (AOR)  (for each order, sale_amount/quantity)
+       - average monthly revenue
 
 ## Requirements
 - SQL Server Express : lightweight server for hosting SQL databases
