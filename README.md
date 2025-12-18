@@ -1,4 +1,4 @@
-# sql-data-warehouse-BI_analytic-project
+# sql-data-warehouse-BI-analytic-project
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generate actionable insights. Based on Udemy course 'The Only SQL Course with 200+ Visual Animations: learn Fast, Practice Hard & Build Real-World Projects' by Baraa.
 ## Project Components
 ### 1. Building the Data Warehouse (Data Engineering)
