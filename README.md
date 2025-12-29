@@ -23,11 +23,11 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ### Objective
 Develop and visualise SQL-based analytics to deliver detailed insights into customer behaviour, product performance and sales trends. These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-#### Develop analytics:
+#### Develop analytics
 Exploratory Data Analysis (EDA): database exploration, dimension exploration, date exploration, measures exploration, magnitude and ranking exploration  
 Advance analytics: Change-over-time, cumulative analysis, performance analysis, part-to-whole analysis, data segmentation, report generation  
 
-#### Customer Report
+_Customer Report_
 Purpose:  
     - This report consolidates key customer metrics and behaviors  
 
@@ -45,7 +45,7 @@ Highlights:
 		- average order value  
 		- average monthly spend  
 
-#### Product Report
+_Product Report_
 Purpose:  
     - This report consolidates key product metrics and behaviors.  
 
@@ -63,7 +63,7 @@ Highlights:
        - average order revenue (AOR)  (for each order, sale_amount/quantity)  
        - average monthly revenue  
 
-#### Analytics visualisation:
+#### Analytics visualisation
 
 ## Requirements
 - SQL Server Express : lightweight server for hosting SQL databases
