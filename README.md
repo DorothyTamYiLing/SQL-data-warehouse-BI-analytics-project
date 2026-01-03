@@ -24,6 +24,9 @@ Data flow diagram
 
 <img width="1095" height="521" alt="data_flow_1" src="https://github.com/user-attachments/assets/48569189-16db-415a-9261-239c8c757fb7" />
 
+Below illustrates how the final two customer and product dimensions and final sale fact table are connected:
+<img width="6033" height="2249" alt="data_model" src="https://github.com/user-attachments/assets/10d3f627-57ea-48e6-8560-4ab7213be548" />
+PK=primery key; FK=foreign key
 
 ## Component 2: BI Analytics & Reporting (Data Analytics)
 
