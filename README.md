@@ -21,7 +21,8 @@ Below illustrates how the six cleaned tables are connected:
 
 
 Data flow diagram
-<img width="1415" height="734" alt="data_flow_1 drawio" src="https://github.com/user-attachments/assets/904f35ca-2b85-49a6-b6d0-5b3c75695fa2" />
+
+<img width="1095" height="521" alt="data_flow_1" src="https://github.com/user-attachments/assets/48569189-16db-415a-9261-239c8c757fb7" />
 
 
 ## Component 2: BI Analytics & Reporting (Data Analytics)
