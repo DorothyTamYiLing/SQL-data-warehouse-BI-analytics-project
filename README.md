@@ -20,7 +20,7 @@ Below illustrates how the six cleaned tables are connected based on shared colum
 <img width="1725" height="1034" alt="data_integration_1" src="https://github.com/user-attachments/assets/5eea69ba-0753-4ecc-ba0c-0f241d720c5a" />
 
 
-Data flow diagram (showing how data in the original sources end up in the final dimensions and table)
+Below is data flow diagram (showing how data in the original sources end up in the final dimensions and table)
 <img width="1095" height="521" alt="data_flow_1" src="https://github.com/user-attachments/assets/48569189-16db-415a-9261-239c8c757fb7" />
 
 Below illustrates how the final two customer and product dimensions and final sale fact table are connected:
