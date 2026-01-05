@@ -105,6 +105,9 @@ Using filtering function in PowerBI, below visualisations are based on data rang
 <img width="1408" height="704" alt="Screenshot 2026-01-03 205652" src="https://github.com/user-attachments/assets/6ab6aa7c-ee75-441c-8669-bf3d624f2f6b" />
 Figure 5 (screenshot): Change of sum of quantity sold, count of distinct customer and sum of sales amount (secondary y-axis) over time, sliced by product category. These metrics had increased dramatically from the beginning of 2013 onwards. Using product category slicing, sales categories related to Accessories and Clothing only became significant from the beginning of 2013 onwards.
 
+<img width="1249" height="713" alt="Screenshot 2026-01-05 130939" src="https://github.com/user-attachments/assets/38f1cd4a-f62c-493e-8520-49ec61d5b02f" />
+Figure 6 (screenshot): Count and percentage of orders by product category. Based on the information from the Date slicer, the orders of Accessories and Clothing only started at the end of 2012. Since then, the orders of Accessories product category increased significantly until its cumulative order number surpassed that of Bikes in April 2013. At the same time, Accessories has also become the most popular product category in the year of 2013.
+
 ## Requirements
 - SQL Server Express : lightweight server for hosting SQL databases
 - SQL Server Management Studio (SSMS) : DUI for managing and interacting with databases
