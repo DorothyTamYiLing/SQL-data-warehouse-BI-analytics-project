@@ -107,7 +107,8 @@ Figure 5 (screenshot): Change of sum of quantity sold, count of distinct custome
 
 <img width="1249" height="713" alt="Screenshot 2026-01-05 130939" src="https://github.com/user-attachments/assets/38f1cd4a-f62c-493e-8520-49ec61d5b02f" />
 Figure 6 (screenshot): Count and percentage of orders by product category. Based on the information from the Date slicer, the orders of Accessories and Clothing only started at the end of 2012. Since then, the orders of Accessories product category increased significantly until its cumulative order number surpassed that of Bikes in April 2013. At the same time, Accessories has also become the most popular product category in the year of 2013.
-<img width="755" height="407" alt="Screenshot 2026-01-05 133353" src="https://github.com/user-attachments/assets/c87324b8-d21c-4899-a4b5-9795617ba9dd" />
+
+<img width="990" height="607" alt="Screenshot 2026-01-05 133613" src="https://github.com/user-attachments/assets/caa91284-ea6f-4b88-86b4-7da53661fe8a" />
 
 ## Requirements
 - SQL Server Express : lightweight server for hosting SQL databases
