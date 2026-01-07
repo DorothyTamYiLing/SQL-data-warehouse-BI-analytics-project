@@ -33,17 +33,17 @@ Develop and visualise SQL-based analytics to deliver detailed insights into cust
 
 __Exploratory Data Analyses (EDA):__
 
-Database exploration: explores the structure of the database, including the list of tables and their schemas and columns, and metadata for specific tables [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/01_database_exploration.sql)
+Database exploration: explores the structure of the database, including the list of tables and their schemas and columns, and metadata for specific tables. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/01_database_exploration.sql)
 
-Dimension exploration: explores the structure of dimension tables
+Dimension exploration: explores the structure of dimension tables. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/02_dimensions_exploration.sql)
 
-Date exploration: determines the temporal boundaries of key data points and to understand the range of historical data
+Date exploration: determines the temporal boundaries of key data points and to understand the range of historical data. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/03_date_range_exploration.sql)
 
-Measures exploration: calculates aggregated metrics (e.g., totals, averages) for quick insights  
+Measures exploration: calculates aggregated metrics (e.g., totals, averages) for quick insights. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/04_measures_exploration.sql) 
 
-Magnitude exploration: quantifies data and group results by specific dimensions and for understanding data distribution across categories
+Magnitude exploration: quantifies data and group results by specific dimensions and for understanding data distribution across categories. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/05_magnitude_analysis.sql)
 
-Ranking exploration: ranks items (e.g., products, customers) based on performance or other metrics and to identify top performers or laggards
+Ranking exploration: ranks items (e.g., products, customers) based on performance or other metrics and to identify top performers or laggards. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/06_ranking_analysis.sql)
 
 
 __Advance analytics:__
