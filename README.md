@@ -117,7 +117,7 @@ Figure 8 (screenshot): Monthly moving average of price. The downward trend sugge
 <img width="3299" height="1585" alt="Screenshot 2026-01-03 122628" src="https://github.com/user-attachments/assets/d26cacd9-b222-44a7-bd38-b24072d976a1" />
 Figure 9 (screenshot): Boxplot of monthly moving average of price (See also Figure 8) 
 
-This boxplot was produced using python script in PowerBI Desktop. See [here](../docs/price_boxplot_python.md) for instructions.
+This boxplot was produced using python script in PowerBI Desktop. See [here](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/price_boxplot_python.md) for instructions.
 
 ## Requirements
 - SQL Server Express : lightweight server for hosting SQL databases
