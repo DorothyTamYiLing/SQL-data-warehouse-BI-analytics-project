@@ -33,7 +33,7 @@ Develop and visualise SQL-based analytics to deliver detailed insights into cust
 
 __Exploratory Data Analyses (EDA):__
 
-Database exploration: explores the structure of the database, including the list of tables and their schemas and columns, and metadata for specific tables (See SQL (script)[https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/01_database_exploration.sql]
+Database exploration: explores the structure of the database, including the list of tables and their schemas and columns, and metadata for specific tables [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/01_database_exploration.sql)
 
 Dimension exploration: explores the structure of dimension tables
 
