@@ -6,7 +6,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
-- **Data Sources (bronze layer)**: Import six original tables from two source systems (three tables from Enterprise Resource Planning(ERP) and three tables from Customer Relationship Management (CRM)) provided as CSV files. See SQL DDL script[https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/ddl_bronze.sql] and SQL load script[https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/proc_load_bronze.sql]
+- **Data Sources (bronze layer)**: Import six original tables from two source systems (three tables from Enterprise Resource Planning(ERP) and three tables from Customer Relationship Management (CRM)) provided as CSV files. See (SQL DDL script)[https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/ddl_bronze.sql] and (SQL load script)[https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/proc_load_bronze.sql]
 - **Data Quality (silver layer)**: Cleanse and resolve data quality issues prior to analysis.
 - **Integration (gold layer)**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
