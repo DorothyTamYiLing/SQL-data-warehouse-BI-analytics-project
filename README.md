@@ -24,7 +24,7 @@ Figure 2: Illustration of how the six cleaned tables are connected based on shar
 Figure 3: Data flow diagram (showing how data in the original sources end up in the final dimensions and table)
 
 <img width="6033" height="2249" alt="data_model" src="https://github.com/user-attachments/assets/10d3f627-57ea-48e6-8560-4ab7213be548" />
-Figure 4: Illustration of how the final two customer and product dimensions and final sale fact table are connected (PK=primery key; FK=foreign key)
+Figure 4: Star schema illustration of how the final two customer and product dimensions and final sale fact table are connected (PK=primery key; FK=foreign key)
 
 ## Component 2: BI Analytics & Reporting (Data Analytics)
 
