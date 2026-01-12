@@ -81,7 +81,7 @@ Highlights:
 		- average order value  
 		- average monthly spend  
 
-_2. Product Report [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/13_report_products.sql) (Table name: gold.report_products)
+_2. Product Report_ [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/13_report_products.sql) (Table name: gold.report_products)
 
 Purpose:  
     - This report consolidates key product metrics and behaviors.  
