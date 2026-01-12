@@ -114,7 +114,7 @@ Figure 6 (screenshot): Count and percentage of orders by product category. Based
 Figure 7 (screenshot): Count of customer by age group. Based on the slicer, the proportions of customers of different age groups remains relatively constant across different customer segmentation slicers, suggesting the lack of association between age group and customer segmentation. Data from gold.Customers_Report. 
 
 <img width="1522" height="863" alt="Screenshot 2026-01-12 190746" src="https://github.com/user-attachments/assets/5117f948-5262-4300-9734-3114fb66093b" />
-Figure 8 (screenshot): Count of customer by customer segmentation. Tooltips shown by hovering onto the pie slices showing the customer name with top average monthly spend, average order value and total sales in each customer segmentation. Data from gold.Customers_Report. 
+Figure 8 (screenshot): Count of customer by customer segmentation. Tooltips shown by hovering onto the pie slices showing the customer names with top average monthly spend, top average order value and top total sales in each customer segmentation. Data from gold.Customers_Report. 
 
 <img width="1045" height="624" alt="Screenshot 2026-01-05 152802" src="https://github.com/user-attachments/assets/4afefe82-472a-4734-bc56-aa865f7e096b" />
 Figure 9 (screenshot): Monthly moving average of price. The downward trend suggests the sales is shifting towards lower-priced products over the time period considered. Data from moving average output from cumulative analysis.
