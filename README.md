@@ -35,32 +35,32 @@ Develop and visualise SQL-based analytics to deliver detailed insights into cust
 
 __Exploratory Data Analyses (EDA):__
 
-Database exploration: explores the structure of the database, including the list of tables and their schemas and columns, and metadata for specific tables. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/01_database_exploration.sql)
+-Database exploration: explores the structure of the database, including the list of tables and their schemas and columns, and metadata for specific tables. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/01_database_exploration.sql)
 
-Dimension exploration: explores the structure of dimension tables. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/02_dimensions_exploration.sql)
+-Dimension exploration: explores the structure of dimension tables. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/02_dimensions_exploration.sql)
 
-Date exploration: determines the temporal boundaries of key data points and to understand the range of historical data. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/03_date_range_exploration.sql)
+-Date exploration: determines the temporal boundaries of key data points and to understand the range of historical data. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/03_date_range_exploration.sql)
 
-Measures exploration: calculates aggregated metrics (e.g., totals, averages) for quick insights. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/04_measures_exploration.sql) 
+-Measures exploration: calculates aggregated metrics (e.g., totals, averages) for quick insights. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/04_measures_exploration.sql) 
 
-Magnitude exploration: quantifies data and group results by specific dimensions and for understanding data distribution across categories. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/05_magnitude_analysis.sql)
+-Magnitude exploration: quantifies data and group results by specific dimensions and for understanding data distribution across categories. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/05_magnitude_analysis.sql)
 
-Ranking exploration: ranks items (e.g., products, customers) based on performance or other metrics and to identify top performers or laggards. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/06_ranking_analysis.sql)
+-Ranking exploration: ranks items (e.g., products, customers) based on performance or other metrics and to identify top performers or laggards. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/06_ranking_analysis.sql)
 
 
 __Advance analytics:__
 
-Change-over-time: to track trends, growth, and changes in key metrics over time. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/07_change_over_time_analysis.sql)
+-Change-over-time: to track trends, growth, and changes in key metrics over time. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/07_change_over_time_analysis.sql)
 
-Cumulative analysis: to calculate running totals or moving averages for key metrics. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/08_cumulative_analysis.sql)
+-Cumulative analysis: to calculate running totals or moving averages for key metrics. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/08_cumulative_analysis.sql)
 
-Performance analysis (Year-Over-Year, Month-Over-Month): to measure the performance of products, customers, or regions over time. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/09_performance_analysis.sql)
+-Performance analysis (Year-Over-Year, Month-Over-Month): to measure the performance of products, customers, or regions over time. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/09_performance_analysis.sql)
 
-Part-to-whole analysis: to compare performance or metrics across dimensions or time periods, useful for A/B testing or regional comparisons. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/11_part_to_whole_analysis.sql)
+-Part-to-whole analysis: to compare performance or metrics across dimensions or time periods, useful for A/B testing or regional comparisons. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/11_part_to_whole_analysis.sql)
 
-Data segmentation: to group data into meaningful categories for targeted insights. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/10_data_segmentation.sql)
+-Data segmentation: to group data into meaningful categories for targeted insights. [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/10_data_segmentation.sql)
 
-Report generation:
+-Report generation:
 
 _1. Customer Report_ [See SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/BI_analytic_scripts/12_report_customers.sql)
 
