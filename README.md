@@ -113,12 +113,14 @@ Figure 6 (screenshot): Count and percentage of orders by product category. Based
 <img width="999" height="606" alt="Screenshot 2026-01-05 134559" src="https://github.com/user-attachments/assets/91dd5758-9515-499d-ba59-286ed14f4f72" />
 Figure 7 (screenshot): Count of customer by age group. Based on the slicer, the proportions of customers of different age groups remains relatively constant across different customer segmentation slicers, suggesting the lack of association between age group and customer segmentation. Data from gold.Customers_Report. 
 
-<img width="1045" height="624" alt="Screenshot 2026-01-05 152802" src="https://github.com/user-attachments/assets/4afefe82-472a-4734-bc56-aa865f7e096b" />
-Figure 8 (screenshot): Monthly moving average of price. The downward trend suggests the sales is shifting towards lower-priced products over the time period considered. Data from moving average output from cumulative analysis.
+<img width="1522" height="863" alt="Screenshot 2026-01-12 190746" src="https://github.com/user-attachments/assets/5117f948-5262-4300-9734-3114fb66093b" />
+Figure 8 (screenshot): Count of customer by customer segmentation. Tooltips shown by hovering onto the pie slices showing the customer name with top average monthly spend, average order value and total sales in each customer segmentation. Data from gold.Customers_Report. 
 
+<img width="1045" height="624" alt="Screenshot 2026-01-05 152802" src="https://github.com/user-attachments/assets/4afefe82-472a-4734-bc56-aa865f7e096b" />
+Figure 9 (screenshot): Monthly moving average of price. The downward trend suggests the sales is shifting towards lower-priced products over the time period considered. Data from moving average output from cumulative analysis.
 
 <img width="3299" height="1585" alt="Screenshot 2026-01-03 122628" src="https://github.com/user-attachments/assets/d26cacd9-b222-44a7-bd38-b24072d976a1" />
-Figure 9 (screenshot): Boxplot of monthly moving average of price (See also Figure 8). Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
+Figure 10 (screenshot): Boxplot of monthly moving average of price (See also Figure 8). Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
 
 This boxplot was produced using python script seaborn library in PowerBI Desktop. See [here](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/price_boxplot_python.md) for instructions.
 
