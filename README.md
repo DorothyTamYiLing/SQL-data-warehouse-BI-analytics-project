@@ -142,13 +142,6 @@ Figure 9 (screenshot): Count of customer by customer segmentation with tooltips 
 
 **Inference: A majority of customers fall under the 'New' segmentation, followed by 'Regular and VIP. Tooltips shown by hovering onto the pie slices showing the customer names with top average monthly spend, top average order value and top total sales in each customer segmentation.** 
 
-Problem statement:
-
-<img width="990" height="607" alt="Screenshot 2026-01-05 133613" src="https://github.com/user-attachments/assets/caa91284-ea6f-4b88-86b4-7da53661fe8a" />
-Figure 10 (screenshot): Count and percentage of orders by product category. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
-
-**Inference : Based on the information from the Date slicer, the orders of Accessories and Clothing only started at the end of 2012. Since then, the orders of Accessories product category increased significantly until its cumulative order number surpassed that of Bikes in April 2013. At the same time, Accessories has also become the most popular product category in the year of 2013.** 
-
 ## Requirements
 - SQL Server Express : lightweight server for hosting SQL databases
 - SQL Server Management Studio (SSMS) : DUI for managing and interacting with databases
