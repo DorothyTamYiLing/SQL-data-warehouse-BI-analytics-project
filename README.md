@@ -112,22 +112,30 @@ Using filtering function in PowerBI, below visualisations are based on data rang
 <img width="1408" height="704" alt="Screenshot 2026-01-03 205652" src="https://github.com/user-attachments/assets/6ab6aa7c-ee75-441c-8669-bf3d624f2f6b" />
 Figure 5 (screenshot): Change of sum of quantity sold, count of distinct customer and sum of sales amount (secondary y-axis) over time, sliced by product category. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI) 
 
-**Inference : These metrics had increased dramatically from the beginning of 2013 onwards. Using product category slicing, sales categories related to Accessories and Clothing only became significant from the beginning of 2013 onwards.**
+**Inference : These metrics had increased dramatically from the beginning of 2013 onwards. As emphasised by the use of product category slicing, sales categories related to Accessories and Clothing only became significant from the beginning of 2013 onwards.**
 
 <img width="990" height="607" alt="Screenshot 2026-01-05 133613" src="https://github.com/user-attachments/assets/caa91284-ea6f-4b88-86b4-7da53661fe8a" />
-Figure 6 (screenshot): Count and percentage of orders by product category. Based on the information from the Date slicer, the orders of Accessories and Clothing only started at the end of 2012. Since then, the orders of Accessories product category increased significantly until its cumulative order number surpassed that of Bikes in April 2013. At the same time, Accessories has also become the most popular product category in the year of 2013. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
+Figure 6 (screenshot): Count and percentage of orders by product category. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
+
+**Inference : Based on the information from the Date slicer, the orders of Accessories and Clothing only started at the end of 2012. Since then, the orders of Accessories product category increased significantly until its cumulative order number surpassed that of Bikes in April 2013. At the same time, Accessories has also become the most popular product category in the year of 2013.** 
 
 <img width="999" height="606" alt="Screenshot 2026-01-05 134559" src="https://github.com/user-attachments/assets/91dd5758-9515-499d-ba59-286ed14f4f72" />
-Figure 7 (screenshot): Count of customer by age group. Based on the slicer, the proportions of customers of different age groups remains relatively constant across different customer segmentation slicers, suggesting the lack of association between age group and customer segmentation. Data from gold.Customers_Report. 
+Figure 7 (screenshot): Count of customer by age group. Data from gold.Customers_Report. 
+
+**Inference: Based on the slicer, the proportions of customers of different age groups remains relatively constant across different customer segmentation slicers, suggesting the lack of association between age group and customer segmentation.** 
 
 <img width="1522" height="863" alt="Screenshot 2026-01-12 190746" src="https://github.com/user-attachments/assets/5117f948-5262-4300-9734-3114fb66093b" />
-Figure 8 (screenshot): Count of customer by customer segmentation. Tooltips shown by hovering onto the pie slices showing the customer names with top average monthly spend, top average order value and top total sales in each customer segmentation. Data from gold.Customers_Report. 
+Figure 8 (screenshot): Count of customer by customer segmentation. Data from gold.Customers_Report. 
+
+**Inference: Tooltips shown by hovering onto the pie slices showing the customer names with top average monthly spend, top average order value and top total sales in each customer segmentation.** 
 
 <img width="1045" height="624" alt="Screenshot 2026-01-05 152802" src="https://github.com/user-attachments/assets/4afefe82-472a-4734-bc56-aa865f7e096b" />
-Figure 9 (screenshot): Monthly moving average of price. The downward trend suggests the sales is shifting towards lower-priced products over the time period considered. Data from moving average output from cumulative analysis.
+Figure 9 (screenshot): Monthly moving average of price. Data from moving average output from cumulative analysis.
+
+**Inference: The downward trend suggests the sales is shifting towards lower-priced products over the time period considered.** 
 
 <img width="3299" height="1585" alt="Screenshot 2026-01-03 122628" src="https://github.com/user-attachments/assets/d26cacd9-b222-44a7-bd38-b24072d976a1" />
-Figure 10 (screenshot): Boxplot of monthly moving average of price (See also Figure 8). Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
+Figure 10 (screenshot): Boxplot of monthly moving average of price (Inference the same as in Figure 8). Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
 
 This boxplot was produced using python script seaborn library in PowerBI Desktop. See [here](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/price_boxplot_python.md) for instructions.
 
