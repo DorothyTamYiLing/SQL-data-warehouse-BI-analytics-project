@@ -109,10 +109,14 @@ Highlights:
 
 Using filtering function in PowerBI, below visualisations are based on data ranges from 2011 to 2013 (i.e. years with complete 12 months records). See [Microsoft Power BI Desktop Document (.pbix) file](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/SQL_visuals_2.pbix) for detailed visualisation settings.
 
+**Problem statement: What is the performance of each product category throughout the time period considered?**
+
 <img width="1408" height="704" alt="Screenshot 2026-01-03 205652" src="https://github.com/user-attachments/assets/6ab6aa7c-ee75-441c-8669-bf3d624f2f6b" />
 Figure 5 (screenshot): Change of sum of quantity sold, count of distinct customer and sum of sales amount (secondary y-axis) over time, sliced by product category. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI) 
 
 **Inference : These metrics had increased dramatically from the beginning of 2013 onwards. As emphasised by the use of product category slicing, sales categories related to Accessories and Clothing only became significant from the beginning of 2013 onwards.**
+
+**Problem statement: How does the metric moving average of the price look like?**
 
 <img width="1045" height="624" alt="Screenshot 2026-01-05 152802" src="https://github.com/user-attachments/assets/4afefe82-472a-4734-bc56-aa865f7e096b" />
 Figure 6 (screenshot): Monthly moving average of price. Data from moving average output from cumulative analysis.
@@ -124,16 +128,21 @@ Figure 7 (screenshot): Boxplot of monthly moving average of price (Inference the
 
 **This boxplot was produced using python script seaborn library in PowerBI Desktop. See [here](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/price_boxplot_python.md) for instructions.**
 
+**Problem statement: What are the proportions of customers that belong to different age groups, and belong to different customer segmentation categories? Is there any correlation between customer age group and segmentation?**
+
 <img width="999" height="606" alt="Screenshot 2026-01-05 134559" src="https://github.com/user-attachments/assets/91dd5758-9515-499d-ba59-286ed14f4f72" />
 Figure 8 (screenshot): Count of customer by age group. Data from gold.Customers_Report. 
 
 **Inference: Based on the slicer, the proportions of customers of different age groups remains relatively constant across different customer segmentation slicers, suggesting the lack of association between age group and customer segmentation.** 
 
+**Problem statement: Which customers has the highest average monthly spend, average order value and total sales in each custome segmentation?**
+
 <img width="1522" height="863" alt="Screenshot 2026-01-12 190746" src="https://github.com/user-attachments/assets/5117f948-5262-4300-9734-3114fb66093b" />
-Figure 9 (screenshot): Count of customer by customer segmentation. Data from gold.Customers_Report. 
+Figure 9 (screenshot): Count of customer by customer segmentation with tooltips showing the cusomter names with top average monthly spend, top average order value and top total sales. Data from gold.Customers_Report. 
 
 **Inference: Tooltips shown by hovering onto the pie slices showing the customer names with top average monthly spend, top average order value and top total sales in each customer segmentation.** 
 
+Problem statement:
 
 <img width="990" height="607" alt="Screenshot 2026-01-05 133613" src="https://github.com/user-attachments/assets/caa91284-ea6f-4b88-86b4-7da53661fe8a" />
 Figure 10 (screenshot): Count and percentage of orders by product category. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
