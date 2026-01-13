@@ -140,7 +140,7 @@ Figure 8 (screenshot): Count of customer by age group. Data from gold.Customers_
 <img width="1522" height="863" alt="Screenshot 2026-01-12 190746" src="https://github.com/user-attachments/assets/5117f948-5262-4300-9734-3114fb66093b" />
 Figure 9 (screenshot): Count of customer by customer segmentation with tooltips showing the cusomter names with top average monthly spend, top average order value and top total sales. Data from gold.Customers_Report. 
 
-**Inference: Tooltips shown by hovering onto the pie slices showing the customer names with top average monthly spend, top average order value and top total sales in each customer segmentation.** 
+**Inference: A majority of customers fall under the 'New' segmentation, followed by 'Regular and VIP. Tooltips shown by hovering onto the pie slices showing the customer names with top average monthly spend, top average order value and top total sales in each customer segmentation.** 
 
 Problem statement:
 
