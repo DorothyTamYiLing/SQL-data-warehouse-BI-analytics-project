@@ -5,14 +5,15 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-#### Specifications
-- **Database Initialisation**: Creates a new database named 'DataWarehouse' and sets up three schemas 
+#### Workflow
+**1. Database Initialisation**: Creates a new database named 'DataWarehouse' and sets up three schemas 
     within the database: 'bronze', 'silver', and 'gold'. See [SQL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/init_database.sql).
-- **Data Sources (bronze layer)**: Import six original tables from two source systems (three tables from Enterprise Resource Planning(ERP) and three tables from Customer Relationship Management (CRM)) provided as CSV files. See [SQL bronze DDL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/ddl_bronze.sql) and [SQL bronze load script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/proc_load_bronze.sql).
-- **Data Quality (silver layer)**: Cleanse and resolve data quality issues prior to analysis. See [SQL silver DDL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/silver/ddl_silver.sql) and [SQL silver load script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/silver/proc_load_silver.sql)
-- **Integration (gold layer)**: Combine both sources into a single, user-friendly data model designed for analytical queries. See [SQL gold DDL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/gold/ddl_gold.sql).
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and anakytical teams.
+**2. Data Sources (bronze layer)**: Import six original tables from two source systems (three tables from Enterprise Resource Planning(ERP) and three tables from Customer Relationship Management (CRM)) provided as CSV files. See [SQL bronze DDL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/ddl_bronze.sql) and [SQL bronze load script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/bronze/proc_load_bronze.sql).
+**3. Data Quality (silver layer)**: Cleanse and resolve data quality issues prior to analysis. See [SQL silver DDL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/silver/ddl_silver.sql) and [SQL silver load script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/silver/proc_load_silver.sql)
+**4. Integration (gold layer)**: Combine both sources into a single, user-friendly data model designed for analytical queries. See [SQL gold DDL script](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/scripts/data_warehouse_scripts/gold/ddl_gold.sql). 
+**5. Documentation**: Provide clear documentation of the data model to support both business stakeholders and anakytical teams.
+
+Scope**: Focus on the latest dataset only; historization of data is not required.
 
 ### Data Architecture
 <img width="6235" height="3216" alt="data_architecture" src="https://github.com/user-attachments/assets/830ed2e5-407a-49a7-a47d-5848623275e5" />
