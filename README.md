@@ -122,7 +122,7 @@ Figure 6 (screenshot): Monthly moving average of price. Data from moving average
 <img width="3299" height="1585" alt="Screenshot 2026-01-03 122628" src="https://github.com/user-attachments/assets/d26cacd9-b222-44a7-bd38-b24072d976a1" />
 Figure 7 (screenshot): Boxplot of monthly moving average of price (Inference the same as in Figure 6). Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
 
-This boxplot was produced using python script seaborn library in PowerBI Desktop. See [here](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/price_boxplot_python.md) for instructions.
+**This boxplot was produced using python script seaborn library in PowerBI Desktop. See [here](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/price_boxplot_python.md) for instructions.**
 
 <img width="999" height="606" alt="Screenshot 2026-01-05 134559" src="https://github.com/user-attachments/assets/91dd5758-9515-499d-ba59-286ed14f4f72" />
 Figure 8 (screenshot): Count of customer by age group. Data from gold.Customers_Report. 
