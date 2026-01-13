@@ -17,7 +17,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 **5. Documentation**: Provide clear documentation of the data model to support both business stakeholders and anakytical teams.
 
-Scope**: Focus on the latest dataset only; historization of data is not required.
+Scope: Focus on the latest dataset only; historization of data is not required.
 
 ### Data Architecture
 <img width="6235" height="3216" alt="data_architecture" src="https://github.com/user-attachments/assets/830ed2e5-407a-49a7-a47d-5848623275e5" />
@@ -110,7 +110,9 @@ Highlights:
 Using filtering function in PowerBI, below visualisations are based on data ranges from 2011 to 2013 (i.e. years with complete 12 months records). See [Microsoft Power BI Desktop Document (.pbix) file](https://github.com/DorothyTamYiLing/SQL-data-warehouse-BI-analytics-project/blob/main/docs/SQL_visuals_2.pbix) for detailed visualisation settings.
 
 <img width="1408" height="704" alt="Screenshot 2026-01-03 205652" src="https://github.com/user-attachments/assets/6ab6aa7c-ee75-441c-8669-bf3d624f2f6b" />
-Figure 5 (screenshot): Change of sum of quantity sold, count of distinct customer and sum of sales amount (secondary y-axis) over time, sliced by product category. These metrics had increased dramatically from the beginning of 2013 onwards. Using product category slicing, sales categories related to Accessories and Clothing only became significant from the beginning of 2013 onwards. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
+Figure 5 (screenshot): Change of sum of quantity sold, count of distinct customer and sum of sales amount (secondary y-axis) over time, sliced by product category. These metrics had increased dramatically from the beginning of 2013 onwards. 
+
+Inference : Using product category slicing, sales categories related to Accessories and Clothing only became significant from the beginning of 2013 onwards. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
 
 <img width="990" height="607" alt="Screenshot 2026-01-05 133613" src="https://github.com/user-attachments/assets/caa91284-ea6f-4b88-86b4-7da53661fe8a" />
 Figure 6 (screenshot): Count and percentage of orders by product category. Based on the information from the Date slicer, the orders of Accessories and Clothing only started at the end of 2012. Since then, the orders of Accessories product category increased significantly until its cumulative order number surpassed that of Bikes in April 2013. At the same time, Accessories has also become the most popular product category in the year of 2013. Data from gold.fact_sales_productmerge (i.e. gold.fact_sales table merged with product category information from gold.dim_product in PowerBI)
